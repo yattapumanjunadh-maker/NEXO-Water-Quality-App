@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="22dp">
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical">
+<LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Sample History" android:textSize="28sp" android:textStyle="bold" android:textColor="@color/nexo_text"/>
+<TextView android:id="@+id/historyCount" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="0 locally saved sample(s)" android:textSize="16sp" android:textColor="@color/nexo_muted" android:layout_marginTop="5dp"/>
+</LinearLayout>
+<com.google.android.material.button.MaterialButton android:id="@+id/clearHistoryButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear History" android:textAllCaps="false" android:minHeight="48dp" app:cornerRadius="14dp"/>
+</LinearLayout>
+<TextView android:id="@+id/historyHint" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Saved samples are stored only on this phone. You can delete an individual sample or clear the complete history." android:textSize="14sp" android:textColor="@color/nexo_muted" android:layout_marginTop="12dp"/>
+<TextView android:id="@+id/noHistory" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="No saved samples yet." android:textSize="17sp" android:textColor="@color/nexo_text" android:padding="22dp" android:layout_marginTop="20dp" android:background="@drawable/card_bg"/>
+<LinearLayout android:id="@+id/historyContainer" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="8dp"/>
+</LinearLayout></ScrollView>
