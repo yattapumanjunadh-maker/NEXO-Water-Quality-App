@@ -1,0 +1,5 @@
+<resources>
+    <color name="nexo_blue">#1769AA</color><color name="nexo_blue_dark">#0E4F80</color><color name="nexo_teal">#2E8B78</color>
+    <color name="nexo_bg">#F4F8FB</color><color name="nexo_text">#172333</color><color name="nexo_muted">#667586</color>
+    <color name="nexo_border">#D9E2EA</color><color name="white">#FFFFFF</color><color name="warning_bg">#FFF8E7</color><color name="warning_text">#9A6500</color>
+</resources>
